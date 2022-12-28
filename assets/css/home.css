@@ -43,6 +43,7 @@
 }
 
 .sec_three .line {
+  z-index: -2;
   position: relative;
 }
 
@@ -50,7 +51,7 @@
   left: 0;
   top: 50%;
   height: 2px;
-  width: 75px;
+  width: 50px;
   content: " ";
   display: block;
   position: absolute;
@@ -59,17 +60,18 @@
 
 .sec_three .line:after {
   content: "We Believe in Quality";
-  margin-left: 80px;
+  margin-left: 55px;
 }
 
 .sec_three .left {
   gap: 2rem;
-  margin: 0 2rem;
   display: grid;
+  margin: 0 2rem;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .sec_three .box {
+  z-index: -2;
   padding: 1rem;
   border-radius: 5px;
   backdrop-filter: blur(5px);
@@ -83,3 +85,11 @@
 }
 
 /* Section Four */
+
+.sec_four {
+  margin: 5rem 0;
+}
+
+.sec_four h2 {
+  text-align: center;
+}
