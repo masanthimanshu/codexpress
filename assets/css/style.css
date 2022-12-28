@@ -33,7 +33,7 @@ hr {
   border: 0;
   margin: 4rem auto;
   width: 100px;
-  border-bottom: 10px dotted #ffffff50;
+  border-bottom: 10px dotted rgba(255, 255, 255, 0.25);
 }
 
 /* Header */
@@ -43,7 +43,7 @@ header {
   width: 100vw;
   display: grid;
   position: fixed;
-  background-color: #eb779050;
+  background-color: rgba(235, 119, 144, 0.25);
   border-bottom: 2px solid #eb7790;
   grid-template-columns: repeat(2, 1fr);
 }
