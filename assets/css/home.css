@@ -1,0 +1,82 @@
+@import url(./style.css);
+
+/* Section One */
+
+.sec_one {
+  height: 110vh;
+  display: grid;
+  background-size: cover;
+  background-position: right;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: url(../images/rocket.png);
+}
+
+.sec_one .right {
+  display: flex;
+  margin-left: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section Two */
+
+.sec_two {
+  text-align: center;
+}
+
+.sec_two .inner {
+  width: 60%;
+  margin: auto;
+}
+
+/* Section Three */
+
+.sec_three {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sec_three .right {
+  margin-right: 5rem;
+}
+
+.sec_three .line {
+  position: relative;
+}
+
+.sec_three .line:before {
+  left: 0;
+  top: 50%;
+  height: 2px;
+  width: 75px;
+  content: " ";
+  display: block;
+  position: absolute;
+  background: white;
+}
+
+.sec_three .line:after {
+  content: "We Believe in Quality";
+  margin-left: 80px;
+}
+
+.sec_three .left {
+  gap: 2rem;
+  margin: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sec_three .box {
+  padding: 1rem;
+  color: black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.sec_three .box img {
+  width: 2.5rem;
+}
+
+/* Section Four */

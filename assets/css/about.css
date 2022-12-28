@@ -1,0 +1,10 @@
+@import url(./style.css);
+
+.sec_one {
+  height: 110vh;
+  display: grid;
+  background-size: cover;
+  background-position: right;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: url(../images/background.png);
+}
